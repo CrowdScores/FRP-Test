@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576D76781E28E29200942D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D76771E28E29200942D63 /* AppDelegate.swift */; };
+		576D767A1E28E29200942D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D76791E28E29200942D63 /* ViewController.swift */; };
+		576D767D1E28E29200942D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576D767B1E28E29200942D63 /* Main.storyboard */; };
+		576D767F1E28E29200942D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576D767E1E28E29200942D63 /* Assets.xcassets */; };
+		576D76821E28E29200942D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576D76801E28E29200942D63 /* LaunchScreen.storyboard */; };
+		576D768D1E28E29200942D63 /* FRP_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D768C1E28E29200942D63 /* FRP_TestTests.swift */; };
+		576D76981E28E29200942D63 /* FRP_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D76971E28E29200942D63 /* FRP_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		576D76891E28E29200942D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576D766C1E28E29200942D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576D76731E28E29200942D63;
+			remoteInfo = "FRP-Test";
+		};
+		576D76941E28E29200942D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576D766C1E28E29200942D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576D76731E28E29200942D63;
+			remoteInfo = "FRP-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		576D76741E28E29200942D63 /* FRP-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRP-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		576D76771E28E29200942D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		576D76791E28E29200942D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		576D767C1E28E29200942D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		576D767E1E28E29200942D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		576D76811E28E29200942D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		576D76831E28E29200942D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576D76881E28E29200942D63 /* FRP-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FRP-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		576D768C1E28E29200942D63 /* FRP_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRP_TestTests.swift; sourceTree = "<group>"; };
+		576D768E1E28E29200942D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576D76931E28E29200942D63 /* FRP-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FRP-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		576D76971E28E29200942D63 /* FRP_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRP_TestUITests.swift; sourceTree = "<group>"; };
+		576D76991E28E29200942D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		576D76711E28E29200942D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D76851E28E29200942D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D76901E28E29200942D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		576D766B1E28E29200942D63 = {
+			isa = PBXGroup;
+			children = (
+				576D76761E28E29200942D63 /* FRP-Test */,
+				576D768B1E28E29200942D63 /* FRP-TestTests */,
+				576D76961E28E29200942D63 /* FRP-TestUITests */,
+				576D76751E28E29200942D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		576D76751E28E29200942D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				576D76741E28E29200942D63 /* FRP-Test.app */,
+				576D76881E28E29200942D63 /* FRP-TestTests.xctest */,
+				576D76931E28E29200942D63 /* FRP-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		576D76761E28E29200942D63 /* FRP-Test */ = {
+			isa = PBXGroup;
+			children = (
+				576D76771E28E29200942D63 /* AppDelegate.swift */,
+				576D76791E28E29200942D63 /* ViewController.swift */,
+				576D767B1E28E29200942D63 /* Main.storyboard */,
+				576D767E1E28E29200942D63 /* Assets.xcassets */,
+				576D76801E28E29200942D63 /* LaunchScreen.storyboard */,
+				576D76831E28E29200942D63 /* Info.plist */,
+			);
+			path = "FRP-Test";
+			sourceTree = "<group>";
+		};
+		576D768B1E28E29200942D63 /* FRP-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				576D768C1E28E29200942D63 /* FRP_TestTests.swift */,
+				576D768E1E28E29200942D63 /* Info.plist */,
+			);
+			path = "FRP-TestTests";
+			sourceTree = "<group>";
+		};
+		576D76961E28E29200942D63 /* FRP-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				576D76971E28E29200942D63 /* FRP_TestUITests.swift */,
+				576D76991E28E29200942D63 /* Info.plist */,
+			);
+			path = "FRP-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		576D76731E28E29200942D63 /* FRP-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576D769C1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-Test" */;
+			buildPhases = (
+				576D76701E28E29200942D63 /* Sources */,
+				576D76711E28E29200942D63 /* Frameworks */,
+				576D76721E28E29200942D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FRP-Test";
+			productName = "FRP-Test";
+			productReference = 576D76741E28E29200942D63 /* FRP-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		576D76871E28E29200942D63 /* FRP-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576D769F1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestTests" */;
+			buildPhases = (
+				576D76841E28E29200942D63 /* Sources */,
+				576D76851E28E29200942D63 /* Frameworks */,
+				576D76861E28E29200942D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576D768A1E28E29200942D63 /* PBXTargetDependency */,
+			);
+			name = "FRP-TestTests";
+			productName = "FRP-TestTests";
+			productReference = 576D76881E28E29200942D63 /* FRP-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		576D76921E28E29200942D63 /* FRP-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576D76A21E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestUITests" */;
+			buildPhases = (
+				576D768F1E28E29200942D63 /* Sources */,
+				576D76901E28E29200942D63 /* Frameworks */,
+				576D76911E28E29200942D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576D76951E28E29200942D63 /* PBXTargetDependency */,
+			);
+			name = "FRP-TestUITests";
+			productName = "FRP-TestUITests";
+			productReference = 576D76931E28E29200942D63 /* FRP-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		576D766C1E28E29200942D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ryan King";
+				TargetAttributes = {
+					576D76731E28E29200942D63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65QCU6J5LM;
+						ProvisioningStyle = Automatic;
+					};
+					576D76871E28E29200942D63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65QCU6J5LM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 576D76731E28E29200942D63;
+					};
+					576D76921E28E29200942D63 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65QCU6J5LM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 576D76731E28E29200942D63;
+					};
+				};
+			};
+			buildConfigurationList = 576D766F1E28E29200942D63 /* Build configuration list for PBXProject "FRP-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 576D766B1E28E29200942D63;
+			productRefGroup = 576D76751E28E29200942D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				576D76731E28E29200942D63 /* FRP-Test */,
+				576D76871E28E29200942D63 /* FRP-TestTests */,
+				576D76921E28E29200942D63 /* FRP-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		576D76721E28E29200942D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D76821E28E29200942D63 /* LaunchScreen.storyboard in Resources */,
+				576D767F1E28E29200942D63 /* Assets.xcassets in Resources */,
+				576D767D1E28E29200942D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D76861E28E29200942D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D76911E28E29200942D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		576D76701E28E29200942D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D767A1E28E29200942D63 /* ViewController.swift in Sources */,
+				576D76781E28E29200942D63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D76841E28E29200942D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D768D1E28E29200942D63 /* FRP_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576D768F1E28E29200942D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D76981E28E29200942D63 /* FRP_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		576D768A1E28E29200942D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576D76731E28E29200942D63 /* FRP-Test */;
+			targetProxy = 576D76891E28E29200942D63 /* PBXContainerItemProxy */;
+		};
+		576D76951E28E29200942D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576D76731E28E29200942D63 /* FRP-Test */;
+			targetProxy = 576D76941E28E29200942D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		576D767B1E28E29200942D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576D767C1E28E29200942D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		576D76801E28E29200942D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576D76811E28E29200942D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		576D769A1E28E29200942D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		576D769B1E28E29200942D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		576D769D1E28E29200942D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65QCU6J5LM;
+				INFOPLIST_FILE = "FRP-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrowdScores.FRP-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		576D769E1E28E29200942D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65QCU6J5LM;
+				INFOPLIST_FILE = "FRP-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrowdScores.FRP-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		576D76A01E28E29200942D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65QCU6J5LM;
+				INFOPLIST_FILE = "FRP-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrowdScores.FRP-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRP-Test.app/FRP-Test";
+			};
+			name = Debug;
+		};
+		576D76A11E28E29200942D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65QCU6J5LM;
+				INFOPLIST_FILE = "FRP-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrowdScores.FRP-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRP-Test.app/FRP-Test";
+			};
+			name = Release;
+		};
+		576D76A31E28E29200942D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 65QCU6J5LM;
+				INFOPLIST_FILE = "FRP-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrowdScores.FRP-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FRP-Test";
+			};
+			name = Debug;
+		};
+		576D76A41E28E29200942D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 65QCU6J5LM;
+				INFOPLIST_FILE = "FRP-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CrowdScores.FRP-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "FRP-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		576D766F1E28E29200942D63 /* Build configuration list for PBXProject "FRP-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576D769A1E28E29200942D63 /* Debug */,
+				576D769B1E28E29200942D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576D769C1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576D769D1E28E29200942D63 /* Debug */,
+				576D769E1E28E29200942D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		576D769F1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576D76A01E28E29200942D63 /* Debug */,
+				576D76A11E28E29200942D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		576D76A21E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576D76A31E28E29200942D63 /* Debug */,
+				576D76A41E28E29200942D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 576D766C1E28E29200942D63 /* Project object */;
+}
