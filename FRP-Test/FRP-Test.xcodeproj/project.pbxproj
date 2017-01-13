@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571968141E291647003F6732 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571968131E291647003F6732 /* ViewController2.swift */; };
 		576D76781E28E29200942D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D76771E28E29200942D63 /* AppDelegate.swift */; };
 		576D767A1E28E29200942D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D76791E28E29200942D63 /* ViewController.swift */; };
 		576D767D1E28E29200942D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576D767B1E28E29200942D63 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		1427D68AA06AD3C569E76690 /* Pods_FRP_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRP_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16762E735646926E2AB566D5 /* Pods-FRP-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-Test/Pods-FRP-Test.release.xcconfig"; sourceTree = "<group>"; };
 		28DF0DC2541E0578CC276FDB /* Pods-FRP-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-TestTests/Pods-FRP-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		571968131E291647003F6732 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		576D76741E28E29200942D63 /* FRP-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRP-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		576D76771E28E29200942D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576D76791E28E29200942D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		571968151E292579003F6732 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		571968161E29258C003F6732 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				576D76791E28E29200942D63 /* ViewController.swift */,
+				571968131E291647003F6732 /* ViewController2.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		571968171E292598003F6732 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		576D766B1E28E29200942D63 = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +152,10 @@
 		576D76761E28E29200942D63 /* FRP-Test */ = {
 			isa = PBXGroup;
 			children = (
+				571968171E292598003F6732 /* Model */,
+				571968161E29258C003F6732 /* View Model */,
+				571968151E292579003F6732 /* View */,
 				576D76771E28E29200942D63 /* AppDelegate.swift */,
-				576D76791E28E29200942D63 /* ViewController.swift */,
 				576D767B1E28E29200942D63 /* Main.storyboard */,
 				576D767E1E28E29200942D63 /* Assets.xcassets */,
 				576D76801E28E29200942D63 /* LaunchScreen.storyboard */,
@@ -451,6 +478,7 @@
 			files = (
 				576D767A1E28E29200942D63 /* ViewController.swift in Sources */,
 				576D76781E28E29200942D63 /* AppDelegate.swift in Sources */,
+				571968141E291647003F6732 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
