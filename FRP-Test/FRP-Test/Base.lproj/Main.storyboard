@@ -13,7 +13,7 @@
         <!--Log In-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FRP_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="FRP_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -76,7 +76,7 @@
         <!--Success-->
         <scene sceneID="pHG-s2-92S">
             <objects>
-                <viewController id="K9x-Tl-dCJ" customClass="ViewController2" customModule="FRP_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="K9x-Tl-dCJ" customClass="PictureViewController" customModule="FRP_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hMF-US-4Z8"/>
                         <viewControllerLayoutGuide type="bottom" id="dm0-fa-bbg"/>

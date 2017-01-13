@@ -10,7 +10,7 @@ import UIKit
 import ReactiveCocoa
 import ReactiveSwift
 
-class ViewController2: UIViewController {
+class PictureViewController: UIViewController {
     
     @IBOutlet var alphaPercentageLabel : UILabel!
     @IBOutlet var radiusPercentageLabel : UILabel!

@@ -10,7 +10,7 @@ import UIKit
 import ReactiveCocoa
 import ReactiveSwift
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     @IBOutlet var usernameTextfield : UITextField!
     @IBOutlet var passwordTextfield : UITextField!
