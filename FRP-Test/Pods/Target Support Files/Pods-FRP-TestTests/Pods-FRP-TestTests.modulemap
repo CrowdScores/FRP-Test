@@ -1,0 +1,6 @@
+framework module Pods_FRP_TestTests {
+  umbrella header "Pods-FRP-TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

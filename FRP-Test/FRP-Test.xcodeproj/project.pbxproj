@@ -14,6 +14,9 @@
 		576D76821E28E29200942D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576D76801E28E29200942D63 /* LaunchScreen.storyboard */; };
 		576D768D1E28E29200942D63 /* FRP_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D768C1E28E29200942D63 /* FRP_TestTests.swift */; };
 		576D76981E28E29200942D63 /* FRP_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D76971E28E29200942D63 /* FRP_TestUITests.swift */; };
+		5A9F65CCD9CE6307A18DE5F8 /* Pods_FRP_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1427D68AA06AD3C569E76690 /* Pods_FRP_Test.framework */; };
+		F1D1CEFBE4F4BDED7FCE8CF6 /* Pods_FRP_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0374CB33BD843ABB36FC4E3 /* Pods_FRP_TestUITests.framework */; };
+		F2BF5694F1E0E4EA4488D9C9 /* Pods_FRP_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9872C57B2908AF53668C4CE8 /* Pods_FRP_TestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1427D68AA06AD3C569E76690 /* Pods_FRP_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRP_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16762E735646926E2AB566D5 /* Pods-FRP-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-Test/Pods-FRP-Test.release.xcconfig"; sourceTree = "<group>"; };
+		28DF0DC2541E0578CC276FDB /* Pods-FRP-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-TestTests/Pods-FRP-TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		576D76741E28E29200942D63 /* FRP-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FRP-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		576D76771E28E29200942D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576D76791E28E29200942D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		576D76931E28E29200942D63 /* FRP-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FRP-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		576D76971E28E29200942D63 /* FRP_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRP_TestUITests.swift; sourceTree = "<group>"; };
 		576D76991E28E29200942D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654BDC70D4A317DBDA63402C /* Pods-FRP-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-TestTests/Pods-FRP-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9872C57B2908AF53668C4CE8 /* Pods_FRP_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRP_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D764C73B3287F5AB51FA74 /* Pods-FRP-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-TestUITests/Pods-FRP-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD199D03B402FC71729AD09C /* Pods-FRP-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-TestUITests/Pods-FRP-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0374CB33BD843ABB36FC4E3 /* Pods_FRP_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRP_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F555FD1BD87DB5F7AC13EDD6 /* Pods-FRP-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRP-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRP-Test/Pods-FRP-Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9F65CCD9CE6307A18DE5F8 /* Pods_FRP_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BF5694F1E0E4EA4488D9C9 /* Pods_FRP_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D1CEFBE4F4BDED7FCE8CF6 /* Pods_FRP_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10E71B975C7D927F834891D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F555FD1BD87DB5F7AC13EDD6 /* Pods-FRP-Test.debug.xcconfig */,
+				16762E735646926E2AB566D5 /* Pods-FRP-Test.release.xcconfig */,
+				654BDC70D4A317DBDA63402C /* Pods-FRP-TestTests.debug.xcconfig */,
+				28DF0DC2541E0578CC276FDB /* Pods-FRP-TestTests.release.xcconfig */,
+				A0D764C73B3287F5AB51FA74 /* Pods-FRP-TestUITests.debug.xcconfig */,
+				BD199D03B402FC71729AD09C /* Pods-FRP-TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		576D766B1E28E29200942D63 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				576D768B1E28E29200942D63 /* FRP-TestTests */,
 				576D76961E28E29200942D63 /* FRP-TestUITests */,
 				576D76751E28E29200942D63 /* Products */,
+				10E71B975C7D927F834891D8 /* Pods */,
+				CAB4A54F3E008377538B131B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "FRP-TestUITests";
 			sourceTree = "<group>";
 		};
+		CAB4A54F3E008377538B131B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1427D68AA06AD3C569E76690 /* Pods_FRP_Test.framework */,
+				9872C57B2908AF53668C4CE8 /* Pods_FRP_TestTests.framework */,
+				D0374CB33BD843ABB36FC4E3 /* Pods_FRP_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 576D769C1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-Test" */;
 			buildPhases = (
+				F018D2E3DB131D3F12DB5942 /* [CP] Check Pods Manifest.lock */,
 				576D76701E28E29200942D63 /* Sources */,
 				576D76711E28E29200942D63 /* Frameworks */,
 				576D76721E28E29200942D63 /* Resources */,
+				4337A0E7DCCA8654E7C6676D /* [CP] Embed Pods Frameworks */,
+				F1D83798F504DEE74743B3C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 576D769F1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestTests" */;
 			buildPhases = (
+				34ADCAE2C9CE73186D0544CC /* [CP] Check Pods Manifest.lock */,
 				576D76841E28E29200942D63 /* Sources */,
 				576D76851E28E29200942D63 /* Frameworks */,
 				576D76861E28E29200942D63 /* Resources */,
+				CE2E629418EE805E3F0B8356 /* [CP] Embed Pods Frameworks */,
+				CFB9FF7B51ECC165F8B223A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 576D76A21E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestUITests" */;
 			buildPhases = (
+				BB09922938F7E051E11BDF9F /* [CP] Check Pods Manifest.lock */,
 				576D768F1E28E29200942D63 /* Sources */,
 				576D76901E28E29200942D63 /* Frameworks */,
 				576D76911E28E29200942D63 /* Resources */,
+				BA83BE3C4042B858338223D7 /* [CP] Embed Pods Frameworks */,
+				11472C35ED71AD2B86DBD219 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11472C35ED71AD2B86DBD219 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRP-TestUITests/Pods-FRP-TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34ADCAE2C9CE73186D0544CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4337A0E7DCCA8654E7C6676D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRP-Test/Pods-FRP-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA83BE3C4042B858338223D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRP-TestUITests/Pods-FRP-TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB09922938F7E051E11BDF9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2E629418EE805E3F0B8356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRP-TestTests/Pods-FRP-TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB9FF7B51ECC165F8B223A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRP-TestTests/Pods-FRP-TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F018D2E3DB131D3F12DB5942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D83798F504DEE74743B3C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRP-Test/Pods-FRP-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		576D76701E28E29200942D63 /* Sources */ = {
@@ -411,7 +598,9 @@
 		};
 		576D769D1E28E29200942D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F555FD1BD87DB5F7AC13EDD6 /* Pods-FRP-Test.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 65QCU6J5LM;
 				INFOPLIST_FILE = "FRP-Test/Info.plist";
@@ -424,7 +613,9 @@
 		};
 		576D769E1E28E29200942D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16762E735646926E2AB566D5 /* Pods-FRP-Test.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 65QCU6J5LM;
 				INFOPLIST_FILE = "FRP-Test/Info.plist";
@@ -437,6 +628,7 @@
 		};
 		576D76A01E28E29200942D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654BDC70D4A317DBDA63402C /* Pods-FRP-TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +644,7 @@
 		};
 		576D76A11E28E29200942D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DF0DC2541E0578CC276FDB /* Pods-FRP-TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +660,7 @@
 		};
 		576D76A31E28E29200942D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D764C73B3287F5AB51FA74 /* Pods-FRP-TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 65QCU6J5LM;
@@ -481,6 +675,7 @@
 		};
 		576D76A41E28E29200942D63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD199D03B402FC71729AD09C /* Pods-FRP-TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 65QCU6J5LM;
@@ -512,6 +707,7 @@
 				576D769E1E28E29200942D63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576D769F1E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +716,7 @@
 				576D76A11E28E29200942D63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576D76A21E28E29200942D63 /* Build configuration list for PBXNativeTarget "FRP-TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +725,7 @@
 				576D76A41E28E29200942D63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
